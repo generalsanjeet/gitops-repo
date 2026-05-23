@@ -4,7 +4,7 @@ image:
   repository: nginx
   tag: latest
 
-replicaCount: 2
+replicaCount: 4
 
 service:
   port: 80
