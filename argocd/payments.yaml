@@ -9,7 +9,7 @@ spec:
   # Where the Helm chart lives — your gitops repo.
   source:
     # We'll update this to your actual repo path in Step 2.
-    repoURL: https://github.com/yourname/gitops-repo
+    repoURL: https://github.com/generalsanjeet/gitops-repo
     targetRevision: HEAD
     path: apps/payments/helm
 
