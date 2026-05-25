@@ -1,10 +1,8 @@
-# These values are what the IDP will update on each deploy.
-# image.repository + image.tag together form the full image name.
 image:
   repository: nginx
-  tag: latest
+  tag: 1.25
 
-replicaCount: 4
+replicaCount: 1
 
 service:
   port: 80
