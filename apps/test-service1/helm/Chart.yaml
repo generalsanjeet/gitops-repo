@@ -1,0 +1,6 @@
+apiVersion: v2
+name: test-service1
+description: Helm chart for test-service1 service managed by IDP
+type: application
+version: 0.1.0
+appVersion: "1.0.0"
