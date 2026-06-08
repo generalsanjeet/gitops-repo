@@ -1,0 +1,20 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: test-service3
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/generalsanjeet/gitops-repo
+    targetRevision: HEAD
+    path: apps/test-service3/helm
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
