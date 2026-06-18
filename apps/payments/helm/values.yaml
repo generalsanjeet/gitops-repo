@@ -1,6 +1,6 @@
 image:
   repository: nginx
-  tag: alpine
+  tag: 1.25
 
 replicaCount: 1
 
