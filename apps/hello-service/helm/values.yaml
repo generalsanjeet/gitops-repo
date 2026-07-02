@@ -1,8 +1,0 @@
-image:
-  repository: ghcr.io/generalsanjeet/hello-service
-  tag: d01aa1669e51fd1d52f6eaf2d9271c8d31ed54d0
-
-replicaCount: 1
-
-service:
-  port: 80

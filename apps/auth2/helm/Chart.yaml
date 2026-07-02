@@ -1,6 +1,0 @@
-apiVersion: v2
-name: auth2
-description: Helm chart for auth2 service managed by IDP
-type: application
-version: 0.1.0
-appVersion: "1.0.0"

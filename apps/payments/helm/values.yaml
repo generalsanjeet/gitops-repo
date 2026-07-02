@@ -1,8 +1,0 @@
-image:
-  repository: nginx
-  tag: 1.25
-
-replicaCount: 1
-
-service:
-  port: 80
